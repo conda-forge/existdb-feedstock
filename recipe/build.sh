@@ -1,5 +1,5 @@
 mkdir -p "${PREFIX}/share/existdb"
-mkdir -p "${PREFIX}/share/existdb/var/webapp/WEB-INF/data"
+mkdir -p "${PREFIX}/share/existdb/webapp/WEB-INF/data"
 
 echo "EXIST_HOME=${PREFIX}/share/existdb
 INSTALL_PATH=${PREFIX}/share/existdb
