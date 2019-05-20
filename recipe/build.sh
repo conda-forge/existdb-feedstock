@@ -7,9 +7,9 @@ MAX_MEMORY=1024
 CACHE_MEM=256
 EXIST_DATA_DIR=${PREFIX}/share/existdb/var/webapp/WEB-INF/data
 EXIST_LOGS_DIR=${PREFIX}/share/existdb/var/webapp/WEB-INF/log
-adminPasswd=admin" > "${PREFIX}/share/existdb/var/options.txt"
+adminPasswd=admin" > "${PREFIX}/share/existdb/options.txt"
 
-chmod 777 "${PREFIX}/share/existdb/var/options.txt"
+chmod 777 "${PREFIX}/share/existdb/options.txt"
 
 # Install the database
-java -jar "${SRC_DIR}/existdb.jar" -console -options "${PREFIX}/share/existdb/var/options.txt"
+java -jar "${SRC_DIR}/existdb.jar" -console -options "${PREFIX}/share/existdb/options.txt"
