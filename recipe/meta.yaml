@@ -1,4 +1,4 @@
-{% set version = "4.7.0" %}
+{% set version = "4.7.1" %}
 
 package:
   name: existdb
@@ -7,7 +7,7 @@ package:
 source:
   fn: existdb.jar
   url: https://bintray.com/existdb/releases/download_file?file_path=eXist-db-setup-{{ version }}.jar
-  sha256: 74fa7c1674d75a1036523054cb8531502feebd6b5eb2c4e2950d2498d03e1133
+  sha256: 5934917b0610e39b82a03d90000dda5e75a153116cac37b681533d6138a76728
 
 build:
   number: 0
